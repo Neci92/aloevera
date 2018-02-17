@@ -26,6 +26,10 @@ header img {
   margin: 20px;
 }
 
+header img:hover {
+  transform: scale(1.03);
+}
+
 header ul {
   float: right;
   margin: 30px 0;
@@ -37,8 +41,7 @@ header li {
   text-transform: uppercase;
 }
 
-header:after,
-footer:after {
+header:after {
   content: "";
   display: table;
   clear: both;
@@ -56,12 +59,10 @@ header li a:hover {
 }
 
 footer {
+  height: 200px;
   width: 100%;
   padding: 1rem;
   background-color: #c9a050;
-}
-
-footer {
   text-align: right;
 }
 
@@ -88,7 +89,7 @@ nav span a {
   border-bottom: 2px solid #FFF;
 }
 
-/* ---------- NASLOVNA-------------- */
+/* ---------- NASLOVNA -------------- */
 
 .cover {
   height: 700px;
@@ -96,4 +97,51 @@ nav span a {
   background-position: center;
   background-size: cover;
   width: 100%;
+}
+
+/* ---------- PROIZVODI -------------- */
+
+.menu {
+  display: inline-block;
+}
+
+.menu a {
+  color: #303030;
+  display: block;
+  padding: 10px;
+
+}
+
+.menu a:hover {
+  background-color: #c9a050;
+  color: #FFF;
+  padding-left: 5px;
+}
+
+.menu li {
+  width: 100%;
+  border-bottom: 1px solid #303030;
+}
+
+.menu li:last-child {
+  border: none;
+}
+
+.menu ul {
+  margin: 20px auto;
+  float: left;
+  width: 200px;
+}
+
+.izbor {
+  border: 1px solid red;
+  width: 800px;
+  display: inline-block;
+  height: 2000px;
+}
+
+.menu:after {
+  content: "";
+  display: table;
+  clear: both;
 }

@@ -1,10 +1,6 @@
 $(document).ready(function(){
 
   $("#pro1").mouseenter(function(){
-    alert();
-  });
-
-  $("#pro1").mouseenter(function(){
     $("#text1").addClass("active");
     $("#text2").removeClass("active").addClass("hidden");
     $("#text3").removeClass("active").addClass("hidden");

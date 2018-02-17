@@ -159,6 +159,9 @@ nav span a {
   padding: 20px;
 }
 
+.promo img{
+  border-radius: 10px; 
+}
 
 .right {
   display: flex;

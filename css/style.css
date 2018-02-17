@@ -101,47 +101,31 @@ nav span a {
 
 /* ---------- PROIZVODI -------------- */
 
-.menu {
+.menu,
+.izbor {
+  border: 1px solid red;
   display: inline-block;
 }
 
-.menu a {
-  color: #303030;
-  display: block;
-  padding: 10px;
-
-}
-
-.menu a:hover {
-  background-color: #c9a050;
-  color: #FFF;
-  padding-left: 5px;
-}
-
-.menu li {
-  width: 100%;
-  border-bottom: 1px solid #303030;
-}
-
-.menu li:last-child {
-  border: none;
-}
-
-.menu ul {
-  margin: 20px auto;
-  float: left;
-  width: 200px;
+.menu {
+  width: 195px;
+  height: 100px;
 }
 
 .izbor {
-  border: 1px solid red;
-  width: 800px;
-  display: inline-block;
+  width: 795px;
   height: 2000px;
 }
 
-.menu:after {
-  content: "";
-  display: table;
-  clear: both;
+/* ---------- O NAMA -------------- */
+
+.headquater {
+  background-image: url("../img/scotsdale.jpg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+article p {
+  color: #222;
 }

@@ -6,7 +6,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: Arimo;
+  font-family: Arimo, Arial, "Helvetica Neue", Helvetica, sans-serif;
   transition: .5s;
 }
 .container{
@@ -25,6 +25,18 @@ p  {
 
 article p {
   color: #222;
+}
+
+article h1 {
+  font-size: 30px;
+  margin: 20px auto;
+  text-indent: 10px;
+}
+
+article h2 {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
 }
 
 header {
@@ -84,6 +96,10 @@ footer .images {
   float: left;
 }
 
+footer p {
+  text-indent: 0;
+}
+
 footer h1 {
   color: #FFF;
 }
@@ -97,12 +113,12 @@ footer img {
   width: 50px;
 }
 
-.forma {
+.forma  /* footer */ {
   float: right;
   text-align: left;
 }
 
-.kontakt {
+.kontakt /* footer */ {
   padding-top: 10px;
 }
 
@@ -118,6 +134,55 @@ nav span a {
   background-position: center;
   background-size: cover;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  background-color: rgba(214, 214, 214, 0.5);
+}
+
+.left {
+  width: 70%;
+border: 1px solid red;
+}
+
+.right {
+  display: flex;
+  width: 30%;
+}
+
+.left,
+.right {
+  height: 100%;
+  display: inline-block;
+}
+
+.proizvod {
+  height: 33.3%;
+  width: 100%;
+}
+
+.proizvod:hover {
+ background-color: rgba(201, 160, 81, 0.8);
+}
+
+.proizvod img {
+  float: right;
+  width: 50%;
+  margin: 7px auto;
+  border-radius: 10px;
+}
+
+.proizvod p {
+  margin: 20px auto;
+  float: left;
+  width: 50%;
 }
 
 /* ---------- PROIZVODI -------------- */
@@ -148,10 +213,27 @@ nav span a {
 }
 
 .slike {
-  width: 600px;
-  margin: 50px auto;
+  width: 510px;
+  margin: 25px auto 50px;
 }
 
 .slike img {
-  margin-left: 20px
+  margin-left: 20px;
+  display: inline-block;
 }
+
+.slike img:first-child {
+  margin: 0;
+}
+
+/* ---------- PRIDRUZI SE -------------- */
+
+.joinus {
+  background-image: url("../img/samuel-zeller-4138.jpg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+ .join {
+   margin-bottom: 30px;
+ }

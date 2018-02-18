@@ -144,10 +144,6 @@ nav span a {
   background-color: rgba(214, 214, 214, 0.5);
 }
 
-.hidden {
-  display: none;
-}
-
 .active {
   align-items: center;
   width: 70%;

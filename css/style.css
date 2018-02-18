@@ -19,11 +19,8 @@ h1  {
   color: #222;
 }
 
-p  {
-  text-indent: 30px;
-}
-
 article p {
+  text-indent: 30px;
   color: #222;
 }
 
@@ -160,7 +157,7 @@ nav span a {
 }
 
 .promo img{
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 .right {

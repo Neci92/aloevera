@@ -152,6 +152,10 @@ nav span a {
   padding: 20px;
 }
 
+.active p {
+  margin-top: 15px;
+}
+
 .promo img{
   border-radius: 10px;
 }
@@ -195,21 +199,107 @@ nav span a {
 
 /* ---------- PROIZVODI -------------- */
 
-.menu,
-.izbor {
-  border: 1px solid red;
-  display: inline-block;
+.menu a {
+  color: #303030;
+  display: block;
+  padding: 10px;
+}
+
+.menu a:hover {
+  background-color: #c9a050;
+  color: #FFF;
+  padding-left: 5px;
+}
+
+.menu li {
+  width: 100%;
+  border-bottom: 1px solid #303030;
+}
+
+.menu li:last-child {
+  border: none;
+}
+
+.menu ul {
+  width: 200px;
 }
 
 .menu {
+  display: inline-block;
   width: 195px;
-  height: 100px;
+  overflow-x: hidden;
+  position: relative;
+  bottom: 1450px;
 }
 
 .izbor {
-  width: 795px;
-  height: 2000px;
+  display: inline-block;
+  margin: 50px auto;
+  width: 800px;
 }
+
+.ponuda {
+  padding: 10px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  width: 250px;
+  height: 350px;
+  display: inline-block;
+  margin: 6px;
+}
+
+.ponuda:hover {
+  background-color: #eee;
+}
+
+.ponuda img {
+  width: 200px;
+  margin: 0 14px;
+}
+
+.ponuda .btn {
+  background-color: #FFF;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 1px solid #c9a050;
+  padding: 10px 15px;
+  position: relative;
+  top: 12px;
+  left: 60px;
+  color: #c9a050;
+}
+
+.ponuda .btn:hover {
+  background-color: #c9a050;
+  color: #FFF;
+}
+
+.pages {
+  position: relative;
+}
+
+.top {
+  top: 40px;
+  left: 220px;
+}
+
+.bottom {
+  left: 220px;
+  bottom: 40px;
+}
+
+.pages li {
+  padding: 2px 5px;
+  cursor: pointer;
+  display: inline;
+  margin-right: 5px;
+}
+
+.pages li:hover {
+  background-color: #c9a050;
+  color: #FFF;
+}
+
 
 /* ---------- O NAMA -------------- */
 

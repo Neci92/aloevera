@@ -20,6 +20,4 @@ $(document).ready(function(){
     $("#text2").hide();
     $("#text1").hide();
   });
-
-
 });

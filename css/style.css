@@ -238,6 +238,7 @@ nav span a {
   display: inline-block;
   margin: 50px auto;
   width: 800px;
+  min-height: 570px;
 }
 
 .ponuda {

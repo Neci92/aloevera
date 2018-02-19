@@ -247,7 +247,7 @@ nav span a {
   border: 1px solid #dedede;
   border-radius: 5px;
   width: 250px;
-  height: 350px;
+  height: 380px;
   display: inline-block;
   margin: 6px;
 }
@@ -259,6 +259,10 @@ nav span a {
 .ponuda img {
   width: 200px;
   margin: 0 14px;
+}
+
+.ponuda :nth-child(2) {
+  height: 60px;
 }
 
 .ponuda p {

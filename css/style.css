@@ -69,6 +69,7 @@ header:after {
 }
 
  header li a {
+   display: block;
    color: #FFF;
    font-size: 1rem;
    padding: 1rem;
@@ -330,11 +331,22 @@ nav span a {
 /* ---------- MEDIA QUERY -------------- */
 
 @media only screen and (max-width: 985px) {
-  nav,
-  nav li{
-    text-align: center;
-    width: 360px;
+
+  header nav {
+    display: none;
+    width: 150px;
+    float: none;
     margin: auto;
+  }
+
+  header li {
+    float: none;
+    text-align: center;
+    margin: auto;
+  }
+
+  header ul {
+    margin: 15px auto;
   }
 
   nav span a {
@@ -343,13 +355,13 @@ nav span a {
     color: #c9a050;
   }
 
-header li a {
-  padding: 10px;
-}
+  header li a {
+    padding: 10px;
+  }
 
   header img {
     width: 203px;
-    margin: auto;
+    margin: 10px auto;
     display: block;
     float: none;
   }
@@ -385,4 +397,52 @@ header li a {
   .images img {
     width: 30px;
   }
+
+   /*o nama*/
+
+  .slike {
+    width: 160px;
+    margin: 20px auto;
+  }
+
+   .slike img {
+     display: block;
+     width: 150px;
+     margin: 10px auto;
+   }
+
+   /*proizvodi*/
+
+   .menu {
+     width: 0;
+     background-color: rgba(201, 160, 81, 0.8);
+     z-index: 1;
+     position: fixed;
+     top:70px;
+     transition: .5s;
+  }
+
+  .menu ul {
+    width: 100%;
+    text-align: center;
+  }
+
+  .izbor {
+    margin: 10px auto;
+    display: block;
+    position: static;
+    width: 275px;
+  }
+
+  .btn1,
+  .btn2 {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: sticky;
+    top: 20px;
+    left: 0;
+    background-color: #000;
+    z-index: 2;
+   }
 }

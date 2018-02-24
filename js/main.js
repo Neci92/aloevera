@@ -101,6 +101,24 @@ $("#pcela").click(function(){
     $(".fit").hide();
     $(".pcela").show();
   });
-});
 
-// ---------- SMOOTH SCROLLING ---------------
+// ---------- MEDIA QUERY - PROIZVODI -------------
+
+$(".btn2").hide();
+
+$('.btn1').on('click', function(){
+    $('.menu').css("width", "100%");
+    $(".btn1").hide();
+    $(".btn2").show();
+  });
+
+  $('.btn2').on('click', function(){
+      $('.menu').css("width", "0");
+      $(".btn2").hide();
+      $(".btn1").show();
+    });
+
+
+  // ---------- SMOOTH SCROLLING ---------------
+
+});

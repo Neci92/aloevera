@@ -118,6 +118,11 @@ $('.btn1').on('click', function(){
       $(".btn1").show();
     });
 
+  // --------- dropbar ---------
+  $('#logo2').on('click', function(){
+  $('nav').slideToggle(1000);
+});
+
 
   // ---------- SMOOTH SCROLLING ---------------
 

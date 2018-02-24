@@ -339,6 +339,15 @@ nav span a {
     margin: auto;
   }
 
+  #logo1 {
+    display: none;
+  }
+
+  #logo2 {
+    display: block;
+    cursor: pointer;
+  }
+
   header li {
     float: none;
     text-align: center;

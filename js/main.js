@@ -120,7 +120,7 @@ $('.btn1').on('click', function(){
 
   // --------- dropbar ---------
   $('#logo2').on('click', function(){
-  $('nav').slideToggle(1000);
+  $('nav').slideToggle(500);
 });
 
 

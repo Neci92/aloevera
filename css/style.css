@@ -47,6 +47,10 @@ header img {
   transition: .5s;
 }
 
+#logo2 {
+  display: none;
+}
+
 header img:hover {
   transform: scale(1.03);
 }

@@ -402,6 +402,10 @@ nav span a {
     height: 30px;
   }
 
+  .rotate {
+    transform: rotate(180deg);
+  }
+
 
   nav a,
   nav li {

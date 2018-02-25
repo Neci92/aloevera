@@ -121,6 +121,7 @@ $('.btn1').on('click', function(){
   // --------- dropbar ---------
   $('#logo2').on('click', function(){
   $('nav').slideToggle(500);
+  $('header img:nth-child(2)').toggleClass('rotate');
 });
 
 if ($(window).width() < 960) {
@@ -128,9 +129,6 @@ if ($(window).width() < 960) {
    $("#text3").show();
 }
 
-$("#logo2").click(function() {
-  $("header img:nth-child(2)").css("transform", "rotate(180deg)");
-});
 
   // ---------- SMOOTH SCROLLING ---------------
 

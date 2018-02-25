@@ -123,6 +123,14 @@ $('.btn1').on('click', function(){
   $('nav').slideToggle(500);
 });
 
+if ($(window).width() < 960) {
+   $("#text2").show();
+   $("#text3").show();
+}
+
+$("#logo2").click(function() {
+  $("header img:nth-child(2)").css("transform", "rotate(180deg)");
+});
 
   // ---------- SMOOTH SCROLLING ---------------
 

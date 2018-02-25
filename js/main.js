@@ -104,6 +104,7 @@ $("#pcela").click(function(){
 
 // ---------- MEDIA QUERY - PROIZVODI -------------
 
+$(".btn1").hide();
 $(".btn2").hide();
 
 $('.btn1').on('click', function(){
@@ -127,6 +128,19 @@ $('.btn1').on('click', function(){
 if ($(window).width() < 960) {
    $("#text2").show();
    $("#text3").show();
+   $(".btn1").show();
+
+   $('.btn1').on('click', function(){
+       $('.menu').css("width", "100%");
+       $(".btn1").hide();
+       $(".btn2").show();
+     });
+
+     $('.btn2').on('click', function(){
+         $('.menu').css("width", "0");
+         $(".btn2").hide();
+         $(".btn1").show();
+       });
 }
 
 

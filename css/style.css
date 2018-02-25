@@ -512,3 +512,15 @@ nav span a {
     z-index: 2;
    }
 }
+
+@media only screen and (max-width: 450px) {
+  #izdvajamoIzPonude {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .promo {
+    border-top-right-radius: 0; 
+  }
+}

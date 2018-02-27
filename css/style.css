@@ -124,10 +124,15 @@ footer img {
 .forma  /* footer */ {
   float: left;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .kontakt /* footer */ {
-  padding-top: 10px;
+  padding: 10px;
+}
+
+.kontakt h2 {
+  margin-bottom: 5px;
 }
 
 nav span a {

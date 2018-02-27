@@ -510,7 +510,7 @@ nav span a {
 
    .menu {
      width: 0;
-     background-color: rgba(201, 160, 81, 0.8);
+     background-color: rgba(201, 160, 81, 0.9);
      z-index: 1;
      position: fixed;
      top:96px;
@@ -528,7 +528,7 @@ nav span a {
     margin: auto;
   }
 
-  menu li a {
+  .menu a {
     color: #FFF;
   }
 

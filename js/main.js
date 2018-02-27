@@ -198,6 +198,108 @@ $(".esm-complex").click(function() {
     $(".esm-complex" + ".modal" ).fadeToggle();
 });
 
+ // --------- LICNA HIGIJENA --------------
+
+ $(".hand-sanitizer").click(function() {
+     $(".hand-sanitizer" + ".modal" ).fadeToggle();
+ });
+
+ $(".lips-jojoba").click(function() {
+     $(".lips-jojoba" + ".modal" ).fadeToggle();
+ });
+
+ $(".forever-sun-lips").click(function() {
+     $(".forever-sun-lips" + ".modal" ).fadeToggle();
+ });
+
+ $(".face-and-body-soap").click(function() {
+     $(".face-and-body-soap" + ".modal" ).fadeToggle();
+ });
+
+ $(".aloe-shield").click(function() {
+     $(".aloe-shield" + ".modal" ).fadeToggle();
+ });
+
+ $(".toothgel").click(function() {
+     $(".toothgel" + ".modal" ).fadeToggle();
+ });
+
+ $(".hand-soap").click(function() {
+     $(".hand-soap" + ".modal" ).fadeToggle();
+ });
+
+ $(".aloe-shave").click(function() {
+     $(".aloe-shave" + ".modal" ).fadeToggle();
+ });
+
+ $(".gentlemans-pride").click(function() {
+     $(".gentlemans-pride" + ".modal" ).fadeToggle();
+ });
+
+ $(".conditioning-rinse").click(function() {
+     $(".conditioning-rinse" + ".modal" ).fadeToggle();
+ });
+
+ $(".travel-kit").click(function() {
+     $(".travel-kit" + ".modal" ).fadeToggle();
+ });
+
+ $(".jojoba-shampoo").click(function() {
+     $(".jojoba-shampoo" + ".modal" ).fadeToggle();
+ });
+
+ $(".bath-gelee").click(function() {
+     $(".bath-gelee" + ".modal" ).fadeToggle();
+ });
+
+ $(".mpd2ultra").click(function() {
+     $(".mpd2ultra" + ".modal" ).fadeToggle();
+ });
+
+// ---------- REGULACIJA -------------
+
+$(".pro-x-chocolate").click(function() {
+    $(".pro-x-chocolate" + ".modal" ).fadeToggle();
+});
+
+$(".pro-x-cinnamon").click(function() {
+    $(".pro-x-cinnamon" + ".modal" ).fadeToggle();
+});
+
+$(".pro-x-chocolate1").click(function() {
+    $(".pro-x-chocolate1" + ".modal" ).fadeToggle();
+});
+
+$(".pro-x-cinnamon1").click(function() {
+    $(".pro-x-cinnamon1" + ".modal" ).fadeToggle();
+});
+
+$(".fast-break").click(function() {
+    $(".fast-break" + ".modal" ).fadeToggle();
+});
+
+$(".aminotein-chocolate").click(function() {
+    $(".aminotein-chocolate" + ".modal" ).fadeToggle();
+});
+
+$(".aminotein-vanilla").click(function() {
+    $(".aminotein-vanilla" + ".modal" ).fadeToggle();
+});
+
+$(".forever-therm").click(function() {
+    $(".forever-therm" + ".modal" ).fadeToggle();
+});
+
+$(".forever-lean").click(function() {
+    $(".forever-lean" + ".modal" ).fadeToggle();
+});
+
+$(".garcinia-plus").click(function() {
+    $(".garcinia-plus" + ".modal" ).fadeToggle();
+});
+
+
+
 
 
 // ---------- MEDIA QUERY - PROIZVODI -------------
@@ -219,10 +321,10 @@ if ($(window).width() < 960) {
    $("#text2").show();
    $("#text3").show();
    $(".btn1").show();
-
-}
-
-
+   $(".menu li").click(function(){
+     $(".menu").removeClass("pop");
+   });
+};
   // ---------- SMOOTH SCROLLING ---------------
 
 });

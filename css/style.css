@@ -204,6 +204,7 @@ nav span a {
   padding: 0 10px;
   height: 33.3%;
   width: 100%;
+  display: flex;
 }
 
 .proizvod:hover {

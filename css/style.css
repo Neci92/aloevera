@@ -302,6 +302,7 @@ nav span a {
   position: relative;
   top: 12px;
   color: #c9a050;
+  cursor: pointer;
 }
 
 .ponuda .btn:hover {
@@ -529,6 +530,22 @@ nav span a {
 
   menu li a {
     color: #FFF;
+  }
+
+  .modal {
+    margin: 10px;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    overflow: scroll;
+  }
+
+  .modal img {
+    width: 100px;
+  }
+
+  .modal h1 {
+    font-size: 17px;
   }
 
   .pop {

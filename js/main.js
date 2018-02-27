@@ -322,7 +322,8 @@ if ($(window).width() < 960) {
    $("#text3").show();
    $(".btn1").show();
    $(".menu li").click(function(){
-     $(".menu").removeClass("pop");
+     $('.menu').toggleClass("pop");
+     $('.btn1').toggleClass("hamburger");
    });
 };
   // ---------- SMOOTH SCROLLING ---------------

@@ -324,7 +324,7 @@ nav span a {
   border-radius: 5px;
   bottom: 0;
   top: 0;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .modal img {

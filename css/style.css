@@ -190,13 +190,9 @@ nav span a {
   display: flex;
   width: 30%;
   border-left: 2px solid #c9a050;
+  flex-direction: column;
 }
 
-.left,
-.right {
-  height: 100%;
-  display: inline-block;
-}
 
 .proizvod {
   border-radius: 10px;

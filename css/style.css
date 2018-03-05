@@ -164,7 +164,7 @@ nav span a {
 .promo {
   display: flex;
   width: 100%;
-  min-height: 500px;
+  height: 500px;
   border-radius: 10px;
   border-top-left-radius: 0;
   background-color: rgba(214, 214, 214, 0.5);
@@ -477,6 +477,7 @@ nav span a {
     display: block;
     margin: 0 auto 20px;
     padding: 15px;
+    height: auto;
   }
 
   .right {

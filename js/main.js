@@ -298,6 +298,40 @@ $(".garcinia-plus").click(function() {
     $(".garcinia-plus" + ".modal" ).fadeToggle();
 });
 
+// ------- FIT -------------
+
+$(".clean-9-ultra-chocolate").click(function() {
+    $(".clean-9-ultra-chocolate" + ".modal" ).fadeToggle();
+});
+
+$(".clean-9-ultra-vanilla").click(function() {
+    $(".clean-9-ultra-vanilla" + ".modal" ).fadeToggle();
+});
+
+$(".f15-beg-vanilla").click(function() {
+    $(".f15-beg-vanilla" + ".modal" ).fadeToggle();
+});
+
+$(".f15-beg-choco").click(function() {
+    $(".f15-beg-choco" + ".modal" ).fadeToggle();
+});
+
+$(".f15-int-vanilla").click(function() {
+    $(".f15-int-vanilla" + ".modal" ).fadeToggle();
+});
+
+$(".f15-int-choco").click(function() {
+    $(".f15-int-choco" + ".modal" ).fadeToggle();
+});
+
+$(".f15-adv-vanilla").click(function() {
+    $(".f15-adv-vanilla" + ".modal" ).fadeToggle();
+});
+
+$(".f15-adv-choco").click(function() {
+    $(".f15-adv-choco" + ".modal" ).fadeToggle();
+});
+
 
 
 

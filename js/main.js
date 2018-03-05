@@ -4,25 +4,36 @@ $(document).ready(function(){
 
   $("#text2").hide();
   $("#text3").hide();
+  $("#text4").hide();
+
 
   $("#pro1").mouseenter(function(){
     $("#text1").show();
     $("#text2").hide();
     $("#text3").hide();
+    $("#text4").hide();
   });
 
   $("#pro2").mouseenter(function(){
     $("#text2").show();
     $("#text1").hide();
     $("#text3").hide();
+    $("#text4").hide();
   });
 
   $("#pro3").mouseenter(function(){
     $("#text3").show();
-    $("#text2").hide();
     $("#text1").hide();
+    $("#text2").hide();
+    $("#text4").hide();
   });
 
+  $("#pro4").mouseenter(function(){
+    $("#text4").show();
+    $("#text1").hide();
+    $("#text2").hide();
+    $("#text3").hide();
+  });
 /* ---------- PROIZVODI --------- */
 
 $(".higijena").hide();
@@ -33,43 +44,47 @@ $(".fit").hide();
 $(".pcela").hide();
 
 $("#napici").click(function(){
-    $(".napici").show();
+    $(".napici").fadeIn();
     $(".higijena").hide();
     $(".nega").hide();
     $(".dodaci").hide();
     $(".regulacija").hide();
     $(".fit").hide();
     $(".pcela").hide();
+    $(".naslov").text("Napici");
   });
 
 $("#higijena").click(function(){
     $(".napici").hide();
-    $(".higijena").show();
+    $(".higijena").fadeIn();
     $(".nega").hide();
     $(".dodaci").hide();
     $(".regulacija").hide();
     $(".fit").hide();
     $(".pcela").hide();
+    $(".naslov").text("Lična higijena");
   });
 
 $("#nega").click(function(){
     $(".napici").hide();
     $(".higijena").hide();
-    $(".nega").show();
+    $(".nega").fadeIn();
     $(".dodaci").hide();
     $(".regulacija").hide();
     $(".fit").hide();
     $(".pcela").hide();
+    $(".naslov").text("Nega kože");
 });
 
 $("#dodaci").click(function(){
     $(".napici").hide();
     $(".higijena").hide();
     $(".nega").hide();
-    $(".dodaci").show();
+    $(".dodaci").fadeIn();
     $(".regulacija").hide();
     $(".fit").hide();
     $(".pcela").hide();
+    $(".naslov").text("Dodaci ishrani");
   });
 
 $("#regulacija").click(function(){
@@ -77,9 +92,10 @@ $("#regulacija").click(function(){
     $(".higijena").hide();
     $(".nega").hide();
     $(".dodaci").hide();
-    $(".regulacija").show();
+    $(".regulacija").fadeIn();
     $(".fit").hide();
     $(".pcela").hide();
+    $(".naslov").text("Regulacija telesne težine");
   });
 
 $("#fit").click(function(){
@@ -88,8 +104,9 @@ $("#fit").click(function(){
     $(".nega").hide();
     $(".dodaci").hide();
     $(".regulacija").hide();
-    $(".fit").show();
+    $(".fit").fadeIn();
     $(".pcela").hide();
+    $(".naslov").text("Forever F.I.T.");
   });
 
 $("#pcela").click(function(){
@@ -99,7 +116,8 @@ $("#pcela").click(function(){
     $(".dodaci").hide();
     $(".regulacija").hide();
     $(".fit").hide();
-    $(".pcela").show();
+    $(".pcela").fadeIn();
+    $(".naslov").text("Pčelinji proizvodi");
   });
 
 // --------- DETALJNIJE ----------

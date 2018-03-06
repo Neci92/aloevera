@@ -372,6 +372,7 @@ $('.btn1').on('click', function(){
 if ($(window).width() < 960) {
    $("#text2").show();
    $("#text3").show();
+   $("#text4").show();
    $(".btn1").show();
    $(".menu li").click(function(){
      $('.menu').toggleClass("pop");

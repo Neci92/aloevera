@@ -5,7 +5,7 @@ $(document).ready(function(){
   $("#text2").hide();
   $("#text3").hide();
   $("#text4").hide();  $(".porucite").hide();
-  $("nav ul:last-child").click(function(){
+  $("nav ul li:last-child").click(function(){
     $('.porucite').slideToggle();
   })
 
@@ -212,6 +212,27 @@ opis(".f15-int-vanilla");
 opis(".f15-int-choco");
 opis(".f15-adv-vanilla");
 opis(".f15-adv-choco");
+
+// ------- NEGA KOZE -------------
+
+opis(".aloe-activator");
+opis(".rehydrating-toner");
+opis(".forever-epiblanc");
+opis(".aloe-vera-gelly");
+opis(".aloe-lotion");
+opis(".aloe-moisturizing-lotion");
+opis(".aloe-heat-lotion");
+opis(".aloe-sunscreen");
+opis(".mask-powder");
+opis(".forever-aloe-scrub");
+opis(".firming-day-lotion");
+opis(".aloe-first");
+opis(".aloe-propolis-creme");
+opis(".aloe-msm-gel");
+opis(".recovering-night-creme");
+opis(".forever-aluring-eyes");
+opis(".r3-factor");
+opis(".aloe-fleur-de-jouvence");
 
 // ---------- MEDIA QUERY - PROIZVODI -------------
 

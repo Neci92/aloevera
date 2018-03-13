@@ -23,15 +23,17 @@
   text-align: center;
 }
 
-.porucite a {
+.porucite a,
+.porucite p {
   color: #222;
 }
+
 
 h1  {
   color: #222;
 }
 
-p {
+article p {
   text-indent: 30px;
   color: #222;
 }

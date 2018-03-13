@@ -4,7 +4,11 @@ $(document).ready(function(){
 
   $("#text2").hide();
   $("#text3").hide();
-  $("#text4").hide();
+  $("#text4").hide();  $(".porucite").hide();
+  $("nav ul:last-child").click(function(){
+    $('.porucite').slideToggle();
+  })
+
 
 
   $("#pro1").mouseenter(function(){
@@ -122,237 +126,92 @@ $("#pcela").click(function(){
 
 // --------- DETALJNIJE ----------
 
+function opis(e){
+  $(e).click(function(){
+    $(e + '.modal').fadeToggle();
+    $('.black').fadeToggle();
+  });
+};
+
+$('.black').click(function(){
+  $(this).fadeToggle();
+  $('.modal').fadeOut();
+});
+
 //-----------NAPICI------------
-$(".joost-pineapple").click(function() {
-    $(".joost-pineapple" + ".modal" ).fadeToggle();
-});
 
-$(".joost-blueberry").click(function() {
-    $(".joost-blueberry" + ".modal" ).fadeToggle();
-});
+opis(".joost-pineapple");
+opis(".joost-blueberry");
+opis(".herbal-tea");
+opis(".berry-nectar");
+opis(".aloe-vera-gel");
+opis(".pomesteen-power");
+opis(".bits-n-peaches");
+opis(".forever-freedom");
+opis(".aloe2go");
 
-$(".herbal-tea").click(function() {
-    $(".herbal-tea" + ".modal" ).fadeToggle();
-});
-
-$(".berry-nectar").click(function() {
-    $(".berry-nectar" + ".modal" ).fadeToggle();
-});
-
-$(".aloe-vera-gel").click(function() {
-    $(".aloe-vera-gel" + ".modal" ).fadeToggle();
-});
-
-$(".pomesteen-power").click(function() {
-    $(".pomesteen-power" + ".modal" ).fadeToggle();
-});
-
-$(".bits-n-peaches").click(function() {
-    $(".bits-n-peaches" + ".modal" ).fadeToggle();
-});
-
-$(".forever-freedom").click(function() {
-    $(".forever-freedom" + ".modal" ).fadeToggle();
-});
-
-$(".aloe2go").click(function() {
-    $(".aloe2go" + ".modal" ).fadeToggle();
-});
 //------------- PCELINJI PROIZVODI---------
-$(".bee-pollen").click(function() {
-    $(".bee-pollen" + ".modal" ).fadeToggle();
-});
 
-$(".bee-propolis").click(function() {
-    $(".bee-propolis" + ".modal" ).fadeToggle();
-});
-
-$(".royal-jelly").click(function() {
-    $(".royal-jelly" + ".modal" ).fadeToggle();
-});
+opis(".bee-pollen");
+opis(".bee-propolis");
+opis(".royal-jelly");
 
 //-------- DODACI ISHRANI -----------
-$(".forever-kids").click(function() {
-    $(".forever-kids" + ".modal" ).fadeToggle();
-});
 
-$(".field-of-greens").click(function() {
-    $(".field-of-greens" + ".modal" ).fadeToggle();
-});
+opis(".forever-kids");
+opis(".field-of-greens");
+opis(".forever-daily");
+opis(".absorbent-c");
+opis(".nature-min");
+opis(".gin-chia");
+opis(".garlic-thyme");
+opis(".multi-maca");
+opis(".arctic-sea");
+opis(".a-beta-care");
+opis(".esm-complex");
 
-$(".forever-daily").click(function() {
-    $(".forever-daily" + ".modal" ).fadeToggle();
-});
-
-$(".absorbent-c").click(function() {
-    $(".absorbent-c" + ".modal" ).fadeToggle();
-});
-
-$(".nature-min").click(function() {
-    $(".nature-min" + ".modal" ).fadeToggle();
-});
-
-$(".gin-chia").click(function() {
-    $(".gin-chia" + ".modal" ).fadeToggle();
-});
-
-$(".garlic-thyme").click(function() {
-    $(".garlic-thyme" + ".modal" ).fadeToggle();
-});
-
-$(".multi-maca").click(function() {
-    $(".multi-maca" + ".modal" ).fadeToggle();
-});
-
-$(".arctic-sea").click(function() {
-    $(".arctic-sea" + ".modal" ).fadeToggle();
-});
-
-$(".a-beta-care").click(function() {
-    $(".a-beta-care" + ".modal" ).fadeToggle();
-});
-
-$(".esm-complex").click(function() {
-    $(".esm-complex" + ".modal" ).fadeToggle();
-});
 
  // --------- LICNA HIGIJENA --------------
 
- $(".hand-sanitizer").click(function() {
-     $(".hand-sanitizer" + ".modal" ).fadeToggle();
- });
 
- $(".lips-jojoba").click(function() {
-     $(".lips-jojoba" + ".modal" ).fadeToggle();
- });
-
- $(".forever-sun-lips").click(function() {
-     $(".forever-sun-lips" + ".modal" ).fadeToggle();
- });
-
- $(".face-and-body-soap").click(function() {
-     $(".face-and-body-soap" + ".modal" ).fadeToggle();
- });
-
- $(".aloe-shield").click(function() {
-     $(".aloe-shield" + ".modal" ).fadeToggle();
- });
-
- $(".toothgel").click(function() {
-     $(".toothgel" + ".modal" ).fadeToggle();
- });
-
- $(".hand-soap").click(function() {
-     $(".hand-soap" + ".modal" ).fadeToggle();
- });
-
- $(".aloe-shave").click(function() {
-     $(".aloe-shave" + ".modal" ).fadeToggle();
- });
-
- $(".gentlemans-pride").click(function() {
-     $(".gentlemans-pride" + ".modal" ).fadeToggle();
- });
-
- $(".conditioning-rinse").click(function() {
-     $(".conditioning-rinse" + ".modal" ).fadeToggle();
- });
-
- $(".travel-kit").click(function() {
-     $(".travel-kit" + ".modal" ).fadeToggle();
- });
-
- $(".jojoba-shampoo").click(function() {
-     $(".jojoba-shampoo" + ".modal" ).fadeToggle();
- });
-
- $(".bath-gelee").click(function() {
-     $(".bath-gelee" + ".modal" ).fadeToggle();
- });
-
- $(".mpd2ultra").click(function() {
-     $(".mpd2ultra" + ".modal" ).fadeToggle();
- });
+ opis(".hand-sanitizer");
+ opis(".lips-jojoba");
+ opis(".forever-sun-lips");
+ opis(".face-and-body-soap");
+ opis(".aloe-shield");
+ opis(".toothgel");
+ opis(".hand-soap");
+ opis(".aloe-shave");
+ opis(".gentlemans-pride");
+ opis(".conditioning-rinse");
+ opis(".travel-kit");
+ opis(".jojoba-shampoo");
+ opis(".bath-gelee");
+ opis(".mpd2ultra");
 
 // ---------- REGULACIJA -------------
 
-$(".pro-x-chocolate").click(function() {
-    $(".pro-x-chocolate" + ".modal" ).fadeToggle();
-});
-
-$(".pro-x-cinnamon").click(function() {
-    $(".pro-x-cinnamon" + ".modal" ).fadeToggle();
-});
-
-$(".pro-x-chocolate1").click(function() {
-    $(".pro-x-chocolate1" + ".modal" ).fadeToggle();
-});
-
-$(".pro-x-cinnamon1").click(function() {
-    $(".pro-x-cinnamon1" + ".modal" ).fadeToggle();
-});
-
-$(".fast-break").click(function() {
-    $(".fast-break" + ".modal" ).fadeToggle();
-});
-
-$(".aminotein-chocolate").click(function() {
-    $(".aminotein-chocolate" + ".modal" ).fadeToggle();
-});
-
-$(".aminotein-vanilla").click(function() {
-    $(".aminotein-vanilla" + ".modal" ).fadeToggle();
-});
-
-$(".forever-therm").click(function() {
-    $(".forever-therm" + ".modal" ).fadeToggle();
-});
-
-$(".forever-lean").click(function() {
-    $(".forever-lean" + ".modal" ).fadeToggle();
-});
-
-$(".garcinia-plus").click(function() {
-    $(".garcinia-plus" + ".modal" ).fadeToggle();
-});
+opis(".pro-x-chocolate");
+opis(".pro-x-cinnamon");
+opis(".pro-x-chocolate1");
+opis(".pro-x-cinnamon1");
+opis(".fast-break");
+opis(".aminotein-chocolate");
+opis(".aminotein-vanilla");
+opis(".forever-therm");
+opis(".forever-lean");
+opis(".garcinia-plus");
 
 // ------- FIT -------------
 
-$(".clean-9-ultra-chocolate").click(function() {
-    $(".clean-9-ultra-chocolate" + ".modal" ).fadeToggle();
-});
-
-$(".clean-9-ultra-vanilla").click(function() {
-    $(".clean-9-ultra-vanilla" + ".modal" ).fadeToggle();
-});
-
-$(".f15-beg-vanilla").click(function() {
-    $(".f15-beg-vanilla" + ".modal" ).fadeToggle();
-});
-
-$(".f15-beg-choco").click(function() {
-    $(".f15-beg-choco" + ".modal" ).fadeToggle();
-});
-
-$(".f15-int-vanilla").click(function() {
-    $(".f15-int-vanilla" + ".modal" ).fadeToggle();
-});
-
-$(".f15-int-choco").click(function() {
-    $(".f15-int-choco" + ".modal" ).fadeToggle();
-});
-
-$(".f15-adv-vanilla").click(function() {
-    $(".f15-adv-vanilla" + ".modal" ).fadeToggle();
-});
-
-$(".f15-adv-choco").click(function() {
-    $(".f15-adv-choco" + ".modal" ).fadeToggle();
-});
-
-
-
-
+opis(".clean-9-ultra-chocolate");
+opis(".clean-9-ultra-vanilla");
+opis(".f15-beg-vanilla");
+opis(".f15-beg-choco");
+opis(".f15-int-vanilla");
+opis(".f15-int-choco");
+opis(".f15-adv-vanilla");
+opis(".f15-adv-choco");
 
 // ---------- MEDIA QUERY - PROIZVODI -------------
 
